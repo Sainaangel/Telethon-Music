@@ -33,7 +33,7 @@ pip3 install -U pip
 curl -sL https://deb.nodesource.com/setup_16.x | bash -
 sudo apt-get install -y nodejs
 npm i -g npm
-git clone https://github.com/ITZ-ZAID/Telethon-Music # clone the repo.
+git clone https://github.com/Sainaangel/Telethon-Music # clone the repo.
 cd Telethon-Music
 pip3 install -U -r requirements.txt
 nano config.py #edit your vars separate by space
