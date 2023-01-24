@@ -9,8 +9,8 @@ class Config(object):
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "IPMUSIXBOT")
     SUPPORT = os.environ.get("SUPPORT", "chhoti_bachi_angel") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "chhoti_bachi_angel") # Your Channel
-    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
-    CMD_IMG = os.environ.get("CMD_IMG", "https://te.legra.ph/file/7e5b79d224638c0d1a38f.jpg")
+    START_IMG = os.environ.get("START_IMG", "https://te.legra.ph/file/6c32810401263be4efb61.jpg")
+    CMD_IMG = os.environ.get("CMD_IMG", "https://te.legra.ph/file/dd3c08bd6b1820b14a6d0.png")
     ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5467311248")) # telegram I'd not Username
     AUTO_LEAVE_TIME = int(os.environ.get("AUTO_LEAVE_ASSISTANT_TIME", "54000")) # in seconds
     AUTO_LEAVE = os.environ.get('AUTO_LEAVING_ASSISTANT', "True") # Change it to "True"
