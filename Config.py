@@ -3,10 +3,10 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("APP_ID", "6296490"))
     API_HASH = os.environ.get("API_HASH", "24385183c93a98ae4155c25d9f5f64b2")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5897701792:AAFIJ8NlfS5NwU3CrnO9RVsm7scvYs1j46k")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5941659598:AAGnHLMYzgoDjZtyn5KpbewyAF0BUzkWnlw")
     STRING_SESSION = os.environ.get("STRING_SESSION", "1BJWap1sBu0uhlXBSKci9upQFQS562rsLqU2ONrevbiOHqTNAlFX-ApBhgbLZIUftzHCukOwb27UN2ITfF3MvHtp8MXyjWOfCqAWu69wlxZew-5fJkIG9tKcXga7WtYe0ZF61ZGFElvTTDKubmqohAnapXlR2CahnOoxOoN6BLPW3C70lWotYtnx70mGiG_WSCZ5JX_33lSdezw5erv0thvlCQSLJFapo4QQ6ESKfeLjMo1_tGM7SCRoaS6ZgPzL7nwW07T-DFEQx1bY7PUwGuda2TWkAo-wmIZWuBkls5gutzTxleyErDCaPg6uNoTOydotVyg50b5NsV2Q6Z-AMZ9WEKBpxGWc=")
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "hckxbot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "IPMUSIXBOT")
     SUPPORT = os.environ.get("SUPPORT", "chhoti_bachi_angel") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "chhoti_bachi_angel") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
