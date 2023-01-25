@@ -7,8 +7,8 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", "1BJWap1sBu0uhlXBSKci9upQFQS562rsLqU2ONrevbiOHqTNAlFX-ApBhgbLZIUftzHCukOwb27UN2ITfF3MvHtp8MXyjWOfCqAWu69wlxZew-5fJkIG9tKcXga7WtYe0ZF61ZGFElvTTDKubmqohAnapXlR2CahnOoxOoN6BLPW3C70lWotYtnx70mGiG_WSCZ5JX_33lSdezw5erv0thvlCQSLJFapo4QQ6ESKfeLjMo1_tGM7SCRoaS6ZgPzL7nwW07T-DFEQx1bY7PUwGuda2TWkAo-wmIZWuBkls5gutzTxleyErDCaPg6uNoTOydotVyg50b5NsV2Q6Z-AMZ9WEKBpxGWc=")
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "IPMUSIXBOT")
-    SUPPORT = os.environ.get("SUPPORT", "chhoti_bachi_angel") # Your Support
-    CHANNEL = os.environ.get("CHANNEL", "chhoti_bachi_angel") # Your Channel
+    SUPPORT = os.environ.get("SUPPORT", "FRIENDZVIBES") # Your Support
+    CHANNEL = os.environ.get("CHANNEL", "FRIENDZVIBES") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://te.legra.ph/file/6c32810401263be4efb61.jpg")
     CMD_IMG = os.environ.get("CMD_IMG", "https://te.legra.ph/file/dd3c08bd6b1820b14a6d0.png")
     ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5467311248")) # telegram I'd not Username
