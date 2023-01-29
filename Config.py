@@ -3,12 +3,12 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("APP_ID", "6296490"))
     API_HASH = os.environ.get("API_HASH", "24385183c93a98ae4155c25d9f5f64b2")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5941659598:AAFCJGzLnIYOBZz2fq2EiNgNolnFmuTphBk")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1BJWap1sBu0uhlXBSKci9upQFQS562rsLqU2ONrevbiOHqTNAlFX-ApBhgbLZIUftzHCukOwb27UN2ITfF3MvHtp8MXyjWOfCqAWu69wlxZew-5fJkIG9tKcXga7WtYe0ZF61ZGFElvTTDKubmqohAnapXlR2CahnOoxOoN6BLPW3C70lWotYtnx70mGiG_WSCZ5JX_33lSdezw5erv0thvlCQSLJFapo4QQ6ESKfeLjMo1_tGM7SCRoaS6ZgPzL7nwW07T-DFEQx1bY7PUwGuda2TWkAo-wmIZWuBkls5gutzTxleyErDCaPg6uNoTOydotVyg50b5NsV2Q6Z-AMZ9WEKBpxGWc=")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6080251945:AAE4mvykix0gkN7MbrhPeIm_kxVi7t5ZSSU")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BJWap1wBu51wh4b3a5Z9OeN0-M8Z8Jh7Tz3nCafZ3ePQomRXE0d7ZwV-knLI2Nrr9EP1kKjoJDHOsVxXwl9Eap25exZFZXAeK-6GQ7wonDwu7g1CkKD_Pm5QvmoxUI23vH7m1HV0SS9eD1zR7403Wr4fjVwYs9yg9Cv3AcGSYg9egMYb0JBrba5kTLAt8Qbu9RhqJdPVWoQB5fKBNrASZg4fPVIaTfURbK91h5hnLkDaHqavUj53HaMsM8oU9NzhrYCJahhVBAaYO5z7jZkPqeICc8lLRfsG580YgYg_RhtWvrOMRW5Yz170mAUxsCunlK5AsZThDF_TAUtvnmcRDvsfcjfPV2E=")
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "IPMUSIXBOT")
-    SUPPORT = os.environ.get("SUPPORT", "SexxyNeo") # Your Support
-    CHANNEL = os.environ.get("CHANNEL", "Sexsuxassist") # Your Channel
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "TgFlashRobot")
+    SUPPORT = os.environ.get("SUPPORT", "sexxynEtgFlash") # Your Support
+    CHANNEL = os.environ.get("CHANNEL", "TgFlash") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://te.legra.ph/file/6c32810401263be4efb61.jpg")
     CMD_IMG = os.environ.get("CMD_IMG", "https://te.legra.ph/file/dd3c08bd6b1820b14a6d0.png")
     ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5467311248")) # telegram I'd not Username
